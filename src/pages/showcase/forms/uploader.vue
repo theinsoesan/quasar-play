@@ -105,7 +105,7 @@ import './docs-input.styl'
 export default {
   data () {
     return {
-      url: 'http://1.1.1.195/upload.php',
+      url: 'http://localhost:8080/settlement-server/fileupload',
 
       text: '',
       textUnderline: 'Quasar',
